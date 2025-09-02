@@ -1,2 +1,25 @@
-*{
+body{
+    padding: 0;
+    color: blanchedalmond;
+}
+
+.nav{
+   padding: x 0;
+   padding: y 0,5rem;
+   margin: 2rem;
+
+   color: bisque;
+   
+    /* padding: 0;
+
+    width: 40rem;
+    height: 2rem;
+    background-color: antiquewhite; */
+}
+
+.dep{
+     /* width: 100%; */
+  border: 2rem solid #F7DCB9;
+  /* padding: 50px; */
+  /* margin: 20px; */
 }
