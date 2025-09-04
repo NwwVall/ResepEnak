@@ -106,8 +106,14 @@
             text-align: left;
             position: absolute;
         }
-        .tx a { 
+        .tx p { 
+            margin-top: -4rem;
+            margin-left: 15rem;
             height: 20%;
-            width: 10%;
+            width: 60%;
+            
         }
-        
+        .pg{
+            position: relative; 
+            left: -30rem;
+        }
