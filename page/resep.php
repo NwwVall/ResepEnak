@@ -1,74 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bagikan resep</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- <nav>
-        <div class="lg">
-            <img src="img.home/Resep Nusantara.png" alt="np">
-        </div>
-        
-    </nav> -->
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="container">
-            
-            <a class="navbar-brand" href="#">
-                <img src="img.home/Group 2.png" alt="Recipe Logo">
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html" >Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">Recipes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Categories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-                
-                <div class="d-flex align-items-center flex-column flex-lg-row gap-3">
-                    
-                    <button type="button" class="btn btn-outline-dark btn-share">
-                        Bagikan resep Anda
-                    </button>
-                    
-                    <div class="navbar-icons">
-                        <img src="img.home/Group 27.png" alt="Notifications">
-                        <img src="img.home/bookmark.png" alt="Bookmarks">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- <a type="reset" class="pg" href="#"> <img src="img.home/arrow_back.png" alt="#"> </a> -->
-
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="img.home/to resep.png" class="img-fluid" alt="..." style="margin-left: 5rem; margin-top: 2rem;">
-            </div>
-            <div class="col">
-                y
-            </div>
-        </div>
-    </div> -->
-    <!-- Back Button -->
+<!-- Back Button -->
         <button class="back-button" onclick="history.back()">
             ← Kembali
         </button>
@@ -80,7 +10,7 @@
                     <div style="width: 30px; height: 30px; background-color: #ccc; border-radius: 50%;"></div>
                     <div>
                         <strong>Ibu.noer</strong><br>
-                        <small>user38@jhrfugr</small>
+                        <small>novoe2210536</small>
                     </div>
                 </div>
 
@@ -101,6 +31,16 @@
                 </div>
             </div>
         </div>
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="img.home/to resep.png" class="img-fluid" alt="..." style="margin-left: 5rem; margin-top: 2rem;">
+            </div>
+            <div class="col">
+                y
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <h2 class="popular-search-title">Langkah-Langkah</h2>
@@ -210,32 +150,3 @@
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-left">
-                    <div class="footer-logo">
-                        <img src="img.home/Group 3.png" alt="logo">
-                    </div>
-                    <div class="footer-text">
-                        <p>
-                            Misi kami di Resep Nusantara adalah untuk membagikan berbagai resep Nusantara agar siapapun dapat melihat, mengetahui dan bisa recook sendiri di rumah, karena kami percaya bahwa memasak makanan dan minuman Nusantara adalah salah satu kunci untuk menjaga dan mempertahan kebudayaan lokal Indonesia. Kami mendukung koki rumahan di seluruh dunia untuk membantu satu sama lain dengan berbagi resep dan pengalaman memasak anda.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="footer-right">
-                    Ada Masukan dan Pertanyaan<br>untuk kami?
-                </div>
-            </div>
-            
-            <div class="footer-copyright">
-                Copyright © Resep Nusantara
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</html>

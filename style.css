@@ -97,7 +97,7 @@
             object-fit: cover;
         }
 
-        /* footer{
+        /* footer {
             padding:auto;
             margin: 100;
             background-color: #DEAC80;
@@ -277,3 +277,87 @@
   padding: 15px;
   text-align: center;
 }
+
+.back-button {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            color: #000;
+            margin: 2rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+.recipe-header {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+            align-items: flex-start;
+        }
+
+        .recipe-image {
+            flex: 0 0 400px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .recipe-image img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .recipe-info {
+            flex: 1;
+        }
+        
+.recipe-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #2C1810;
+        }
+
+        .recipe-author {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .action-button {
+            background: none;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .recipe-description {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .comment-section {
+            background-color: #B5C18E;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
