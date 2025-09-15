@@ -277,7 +277,6 @@
   padding: 15px;
   text-align: center;
 }
-
 .back-button {
             background: none;
             border: none;
@@ -310,7 +309,7 @@
         .recipe-info {
             flex: 1;
         }
-        
+
 .recipe-title {
             font-size: 2.5rem;
             font-weight: 700;
